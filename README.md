@@ -15,12 +15,22 @@
 ## Progress
 ---
 ### Day 1 goals:
+1. Copy and open project sketch in Figma.
+2. Install and configure [VSCode](https://code.visualstudio.com/).
+3. Make `index.html` with basic project structure and five levels of header.
 ---
 ### Day 2 goals:
+1. Format `index.html` with blocks from Figma sketch.
+2. Add personal photo.
+3. Fill up personal information.
 ---
 ### Day 3 goals:
+1. Watch lecture about Soft Skills
+2. Add CSS styles with `styles.css`
+3. Rework style of page.
 ---
 ### Day 4 goals:
+1. Rework sidebar style.
 ---
 ### Day 5 goals:
 ---
