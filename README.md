@@ -40,7 +40,7 @@
 ---
 
 # TO-DO
--  [ ] Add my photo to the `/images/`
+-  [x] Add my photo to the `/images/`
 -  [ ] Rework `Projects` contetn
 -  [ ] Rework `Work` content
 -  [ ] Rework `Education` content

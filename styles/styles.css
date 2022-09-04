@@ -18,6 +18,8 @@ h1{
     size: 45px;
 }
 
+/* Main content style */
+
 .about-content{
     margin: 100px 90px 0px 90px;
 }
@@ -34,16 +36,55 @@ h1{
     margin: 20px 90px 0px 90px;
 }
 
+/* Sidebar styles */
+
 .side-bar{
-    color: aliceblue;
+    color: #FFFFFF;
     background-color: #1E2939;
     width: 370px;
+    padding-top: 40px;
 }
 
 .candidate-photo{
-    margin-top: 40px;
+    width: 370px;
+    margin-bottom: 50px;
 }
 
 .side-content{
-    margin: 40px 0px 0px 40px;
+    margin: 0px 0px 0px 50px;
+}
+
+.side-header3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    margin-bottom: 5px;
+}
+
+.side-link:visited, .side-link:link{
+    font-style: normal;
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    opacity: 0.5;
+}
+
+.contact-type{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin-right: 5px;
+}
+
+.side-list{
+    padding: 0;
+    margin-left: 15px;
+    color: orangered;
+}
+
+.list-element{
+    color: #FFFFFF;
 }
