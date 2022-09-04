@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./styles/alt.css">
     <title>Resume</title>
 </head>
-
 <body>
     <!-- Main div -->
-    <div>
+    <div class="main">
         <!-- Main content -->
         <div>
             <!-- About -->
-            <div>
+            <div class="about-content main-content">
                 <h2>Future Full Stack developer</h2>
                 <h1>Serhiy Zhuk</h1>
                 <p>Young and versatile FOSS enthusiast with passions for learning and deep diving into new technologies. Despite current main jobs dedicates time and resources to organize and maintain home and close family IT side of life.</p>
             </div>
             <!--Projects list-->
-            <div>
+            <div class="project-content main-content">
                 <h3>Projects</h3>
                 <ol>
                     <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">Project 1</a>
@@ -37,7 +40,7 @@
                 </ol>
             </div>
             <!-- Work Experience -->
-            <div>
+            <div class="work-content main-content">
                 <h3>Work Experience</h3>
                 <!-- Work 1 -->
                 <div>
@@ -74,20 +77,18 @@
                 </div>
             </div>
             <!-- Education info -->
-            <div>
+            <div class="education-content main-content">
                 <h3>Education</h3>
-                <div>
-                    <h4>KROK University</h4>
-                    <h5>CS</h5>
-                    <p>2022 | Ukraine</p>
-                </div>
+                <h4>KROK University</h4>
+                <h5>CS</h5>
+                <p>2022 | Ukraine</p>
             </div>
         </div>
         <!-- Sidebar -->
-        <aside>
-            <img src="photo.img" alt="Candidate photo">
+        <aside class="side-bar">
+            <a href="index.html"><img class="candidate-photo" src="./images/photo.jpg" alt="Candidate photo" width="370"></a>
             <!-- Contacts -->
-            <div>
+            <div class="side-content">
                 <h3>Contacts</h3>
                 <div>
                     <p>P: <a href="tel:380989841054">+38 098 984 10 54</a></p>
@@ -95,35 +96,31 @@
                 </div>
             </div>
             <!-- Tech Skills -->
-            <div>
+            <div class="side-content">
                 <h3>Tech Skills</h3>
-                <div>
-                    <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JS</li>
-                        <li>GIT</li>
-                        <li>Python</li>
-                        <li>Bash</li>
-                        <li>Unix</li>
-                        <li>SQL</li>
-                    </ul>
-                </div>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JS</li>
+                    <li>GIT</li>
+                    <li>Python</li>
+                    <li>Bash</li>
+                    <li>Unix</li>
+                    <li>SQL</li>
+                </ul>
             </div>
             <!-- Soft Skills -->
-            <div>
+            <div class="side-content">
                 <h3>Soft Skills</h3>
-                <div>
-                    <ul>
-                        <li>SCRUM</li>
-                        <li>Agile</li>
-                        <li>Interest in learning</li>
-                        <li>Time managment</li>
-                        <li>Communacation</li>
-                        <li>Collaboration</li>
-                        <li>Curiosity</li>
-                    </ul>
-                </div>
+                <ul>
+                    <li>SCRUM</li>
+                    <li>Agile</li>
+                    <li>Interest in learning</li>
+                    <li>Time managment</li>
+                    <li>Communacation</li>
+                    <li>Collaboration</li>
+                    <li>Curiosity</li>
+                </ul>
             </div>
         </aside>
     </div>

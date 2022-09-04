@@ -1,0 +1,62 @@
+/* Body styles */
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: azure;
+}
+
+.main{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    position: absolute;
+    left: 40px;
+    top: 40px;
+    background: #FFFFFF;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    size: 45px;
+}
+
+.main-content{
+    border-radius: 15px;
+    padding: 10px;
+    background-color: gainsboro;
+    box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.about-content{
+    margin: 40px 90px 0px 90px;
+    height: 350px;
+}
+
+.project-content{
+    margin: 20px 90px 0px 90px;
+}
+
+.work-content{
+    margin: 20px 90px 0px 90px;
+}
+
+.education-content{
+    margin: 20px 90px 0px 90px;
+}
+
+.side-bar{
+    color: aliceblue;
+    width: 370px;
+    margin: 0px 0px 0px 20px;
+}
+
+.candidate-photo{
+    margin-top: 40px;
+    border-radius: 15px;
+}
+
+.side-content{
+    margin: 10px 0px 0px 0px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #1E2939;
+}
