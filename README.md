@@ -30,9 +30,10 @@
 3. Rework style of page.
 ---
 ### Day 4 goals:
-1. Rework sidebar style.
+1. Rework sidebar (Photo, Contacts, Skills blocks) style.
 ---
 ### Day 5 goals:
+1. Rework main content (About, Projects, Work, Education bloks) style.
 ---
 ### Day 6 goals:
 ---
@@ -44,3 +45,4 @@
 -  [ ] Rework `Projects` contetn
 -  [ ] Rework `Work` content
 -  [ ] Rework `Education` content
+-  [ ] Clean `styles.css`git

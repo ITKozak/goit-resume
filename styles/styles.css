@@ -1,6 +1,7 @@
 /* Body styles */
 body{
     font-family: 'Montserrat', sans-serif;
+    background-color: #E5E5E5;
 }
 
 .main{
@@ -14,35 +15,151 @@ body{
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
 }
 
-h1{
-    size: 45px;
-}
-
 /* Main content style */
+.main-content{
+    padding: 90px 90px;
+    margin-right: auto;
+}
 
+/* About section style */
 .about-content{
-    margin: 100px 90px 0px 90px;
+    margin: 0px 0px 40px 0px;
+    width: 400px;
 }
 
+/* Candidate position title */
+.about-content h2{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+/* Candidate name style */
+.about-content h1{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+/* Candidate about style */
+.about-content p{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+
+/* Header of content sections style  (Projects, Work, Education) */
+.main-content h3{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom:10px;
+}
+
+/* Projects section style */
 .project-content{
-    margin: 100px 90px 0px 90px;
+    margin: 0px 0px 50px 0px;
 }
 
+/* List elements of projects style */
+.project-content li{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.project-content a:link, a:visited{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-left: 10px;
+    color: #595959;
+}
+
+.project-content span{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+}
+.project-content ol{
+    padding: 0;
+    margin-left: 17px;
+}
+
+/* Work section style */
 .work-content{
-    margin: 20px 90px 0px 90px;
+    margin: 0px 0px 40px 0px;
 }
 
-.education-content{
-    margin: 20px 90px 0px 90px;
+.work-content h4{
+    margin-top: 10;
+    margin-bottom: 15px;
 }
+
+.work-content span{
+    color: #FB6D3A;
+}
+
+.work-content p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-top: 0;
+}
+
+.work-content p span{
+    color: #000000;
+}
+
+.work-content ul{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
+    padding: 0;
+    margin-left: 17px;
+}
+
+/* Education section style */
+.education-content{
+    margin: 0px 0px 0px 0px;
+}
+
+.education-content h4{
+    margin-bottom: 5px;
+}
+
+.education-content h5{
+    color: #FB6D3A;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.education-content p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin-top: 0;
+}
+
 
 /* Sidebar styles */
-
 .side-bar{
     color: #FFFFFF;
     background-color: #1E2939;
     width: 370px;
     padding-top: 40px;
+    margin-left: 40px;
 }
 
 .candidate-photo{
@@ -51,7 +168,7 @@ h1{
 }
 
 .side-content{
-    margin: 0px 0px 0px 50px;
+    margin: 0px 0px 45px 50px;
 }
 
 .side-header3{
@@ -60,6 +177,10 @@ h1{
     font-size: 22px;
     line-height: 27px;
     margin-bottom: 5px;
+}
+
+.side-contacts p{
+    margin: 0;
 }
 
 .side-link:visited, .side-link:link{
@@ -83,6 +204,10 @@ h1{
     padding: 0;
     margin-left: 15px;
     color: orangered;
+}
+
+.side-list li{
+    margin-top: 5px;
 }
 
 .list-element{
